@@ -13,7 +13,7 @@ yesBtn.addEventListener("click", () => {
 });
 
 // Make the No button move randomly on hover
-noBtn.addEventListener("mouseover", () => {
+noBtn.addEventListener("click", () => {
     const wrapper = document.querySelector(".wrapper");
     const wrapperRect = wrapper.getBoundingClientRect();
     const noBtnRect = noBtn.getBoundingClientRect();
